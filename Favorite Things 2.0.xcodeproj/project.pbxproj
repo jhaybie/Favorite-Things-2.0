@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E423F6C217F235D20091DC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6C117F235D20091DC22 /* Foundation.framework */; };
+		E423F6C417F235D20091DC22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6C317F235D20091DC22 /* CoreGraphics.framework */; };
+		E423F6C617F235D20091DC22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6C517F235D20091DC22 /* UIKit.framework */; };
+		E423F6CC17F235D20091DC22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E423F6CA17F235D20091DC22 /* InfoPlist.strings */; };
+		E423F6CE17F235D20091DC22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F6CD17F235D20091DC22 /* main.m */; };
+		E423F6D217F235D20091DC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D117F235D20091DC22 /* AppDelegate.m */; };
+		E423F6D517F235D20091DC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E423F6D317F235D20091DC22 /* Main.storyboard */; };
+		E423F6D817F235D20091DC22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F6D717F235D20091DC22 /* ViewController.m */; };
+		E423F6DA17F235D20091DC22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E423F6D917F235D20091DC22 /* Images.xcassets */; };
+		E423F6E117F235D20091DC22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6E017F235D20091DC22 /* XCTest.framework */; };
+		E423F6E217F235D30091DC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6C117F235D20091DC22 /* Foundation.framework */; };
+		E423F6E317F235D30091DC22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F6C517F235D20091DC22 /* UIKit.framework */; };
+		E423F6EB17F235D30091DC22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E423F6E917F235D30091DC22 /* InfoPlist.strings */; };
+		E423F6ED17F235D30091DC22 /* Favorite_Things_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F6EC17F235D30091DC22 /* Favorite_Things_2_0Tests.m */; };
+		E4D2F5D917F36C970058E391 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D2F5D717F36C970058E391 /* EditViewController.m */; };
+		E4D2F5DA17F36C970058E391 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D2F5D817F36C970058E391 /* EditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E423F6E417F235D30091DC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E423F6B617F235D20091DC22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E423F6BD17F235D20091DC22;
+			remoteInfo = "Favorite Things 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E423F6BE17F235D20091DC22 /* Favorite Things 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Things 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E423F6C117F235D20091DC22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E423F6C317F235D20091DC22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E423F6C517F235D20091DC22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E423F6C917F235D20091DC22 /* Favorite Things 2.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Favorite Things 2.0-Info.plist"; sourceTree = "<group>"; };
+		E423F6CB17F235D20091DC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E423F6CD17F235D20091DC22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E423F6CF17F235D20091DC22 /* Favorite Things 2.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Favorite Things 2.0-Prefix.pch"; sourceTree = "<group>"; };
+		E423F6D017F235D20091DC22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E423F6D117F235D20091DC22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E423F6D417F235D20091DC22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E423F6D617F235D20091DC22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E423F6D717F235D20091DC22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E423F6D917F235D20091DC22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E423F6DF17F235D20091DC22 /* Favorite Things 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite Things 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E423F6E017F235D20091DC22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E423F6E817F235D30091DC22 /* Favorite Things 2.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Favorite Things 2.0Tests-Info.plist"; sourceTree = "<group>"; };
+		E423F6EA17F235D30091DC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E423F6EC17F235D30091DC22 /* Favorite_Things_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Favorite_Things_2_0Tests.m; sourceTree = "<group>"; };
+		E4D2F5D617F36C970058E391 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = ../EditViewController.h; sourceTree = "<group>"; };
+		E4D2F5D717F36C970058E391 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = ../EditViewController.m; sourceTree = "<group>"; };
+		E4D2F5D817F36C970058E391 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditViewController.xib; path = ../EditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E423F6BB17F235D20091DC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6C417F235D20091DC22 /* CoreGraphics.framework in Frameworks */,
+				E423F6C617F235D20091DC22 /* UIKit.framework in Frameworks */,
+				E423F6C217F235D20091DC22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E423F6DC17F235D20091DC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6E117F235D20091DC22 /* XCTest.framework in Frameworks */,
+				E423F6E317F235D30091DC22 /* UIKit.framework in Frameworks */,
+				E423F6E217F235D30091DC22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E423F6B517F235D20091DC22 = {
+			isa = PBXGroup;
+			children = (
+				E423F6C717F235D20091DC22 /* Favorite Things 2.0 */,
+				E423F6E617F235D30091DC22 /* Favorite Things 2.0Tests */,
+				E423F6C017F235D20091DC22 /* Frameworks */,
+				E423F6BF17F235D20091DC22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E423F6BF17F235D20091DC22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6BE17F235D20091DC22 /* Favorite Things 2.0.app */,
+				E423F6DF17F235D20091DC22 /* Favorite Things 2.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E423F6C017F235D20091DC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C117F235D20091DC22 /* Foundation.framework */,
+				E423F6C317F235D20091DC22 /* CoreGraphics.framework */,
+				E423F6C517F235D20091DC22 /* UIKit.framework */,
+				E423F6E017F235D20091DC22 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E423F6C717F235D20091DC22 /* Favorite Things 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2F5D617F36C970058E391 /* EditViewController.h */,
+				E4D2F5D717F36C970058E391 /* EditViewController.m */,
+				E4D2F5D817F36C970058E391 /* EditViewController.xib */,
+				E423F6D017F235D20091DC22 /* AppDelegate.h */,
+				E423F6D117F235D20091DC22 /* AppDelegate.m */,
+				E423F6D317F235D20091DC22 /* Main.storyboard */,
+				E423F6D617F235D20091DC22 /* ViewController.h */,
+				E423F6D717F235D20091DC22 /* ViewController.m */,
+				E423F6D917F235D20091DC22 /* Images.xcassets */,
+				E423F6C817F235D20091DC22 /* Supporting Files */,
+			);
+			path = "Favorite Things 2.0";
+			sourceTree = "<group>";
+		};
+		E423F6C817F235D20091DC22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6C917F235D20091DC22 /* Favorite Things 2.0-Info.plist */,
+				E423F6CA17F235D20091DC22 /* InfoPlist.strings */,
+				E423F6CD17F235D20091DC22 /* main.m */,
+				E423F6CF17F235D20091DC22 /* Favorite Things 2.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E423F6E617F235D30091DC22 /* Favorite Things 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6EC17F235D30091DC22 /* Favorite_Things_2_0Tests.m */,
+				E423F6E717F235D30091DC22 /* Supporting Files */,
+			);
+			path = "Favorite Things 2.0Tests";
+			sourceTree = "<group>";
+		};
+		E423F6E717F235D30091DC22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E423F6E817F235D30091DC22 /* Favorite Things 2.0Tests-Info.plist */,
+				E423F6E917F235D30091DC22 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E423F6BD17F235D20091DC22 /* Favorite Things 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E423F6F017F235D30091DC22 /* Build configuration list for PBXNativeTarget "Favorite Things 2.0" */;
+			buildPhases = (
+				E423F6BA17F235D20091DC22 /* Sources */,
+				E423F6BB17F235D20091DC22 /* Frameworks */,
+				E423F6BC17F235D20091DC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Favorite Things 2.0";
+			productName = "Favorite Things 2.0";
+			productReference = E423F6BE17F235D20091DC22 /* Favorite Things 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E423F6DE17F235D20091DC22 /* Favorite Things 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E423F6F317F235D30091DC22 /* Build configuration list for PBXNativeTarget "Favorite Things 2.0Tests" */;
+			buildPhases = (
+				E423F6DB17F235D20091DC22 /* Sources */,
+				E423F6DC17F235D20091DC22 /* Frameworks */,
+				E423F6DD17F235D20091DC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E423F6E517F235D30091DC22 /* PBXTargetDependency */,
+			);
+			name = "Favorite Things 2.0Tests";
+			productName = "Favorite Things 2.0Tests";
+			productReference = E423F6DF17F235D20091DC22 /* Favorite Things 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E423F6B617F235D20091DC22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jhaybie;
+				TargetAttributes = {
+					E423F6DE17F235D20091DC22 = {
+						TestTargetID = E423F6BD17F235D20091DC22;
+					};
+				};
+			};
+			buildConfigurationList = E423F6B917F235D20091DC22 /* Build configuration list for PBXProject "Favorite Things 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E423F6B517F235D20091DC22;
+			productRefGroup = E423F6BF17F235D20091DC22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E423F6BD17F235D20091DC22 /* Favorite Things 2.0 */,
+				E423F6DE17F235D20091DC22 /* Favorite Things 2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E423F6BC17F235D20091DC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2F5DA17F36C970058E391 /* EditViewController.xib in Resources */,
+				E423F6DA17F235D20091DC22 /* Images.xcassets in Resources */,
+				E423F6CC17F235D20091DC22 /* InfoPlist.strings in Resources */,
+				E423F6D517F235D20091DC22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E423F6DD17F235D20091DC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6EB17F235D30091DC22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E423F6BA17F235D20091DC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2F5D917F36C970058E391 /* EditViewController.m in Sources */,
+				E423F6D817F235D20091DC22 /* ViewController.m in Sources */,
+				E423F6D217F235D20091DC22 /* AppDelegate.m in Sources */,
+				E423F6CE17F235D20091DC22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E423F6DB17F235D20091DC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E423F6ED17F235D30091DC22 /* Favorite_Things_2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E423F6E517F235D30091DC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E423F6BD17F235D20091DC22 /* Favorite Things 2.0 */;
+			targetProxy = E423F6E417F235D30091DC22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E423F6CA17F235D20091DC22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E423F6CB17F235D20091DC22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E423F6D317F235D20091DC22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E423F6D417F235D20091DC22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E423F6E917F235D30091DC22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E423F6EA17F235D30091DC22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E423F6EE17F235D30091DC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E423F6EF17F235D30091DC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E423F6F117F235D30091DC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorite Things 2.0/Favorite Things 2.0-Prefix.pch";
+				INFOPLIST_FILE = "Favorite Things 2.0/Favorite Things 2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E423F6F217F235D30091DC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorite Things 2.0/Favorite Things 2.0-Prefix.pch";
+				INFOPLIST_FILE = "Favorite Things 2.0/Favorite Things 2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E423F6F417F235D30091DC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Favorite Things 2.0.app/Favorite Things 2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorite Things 2.0/Favorite Things 2.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Favorite Things 2.0Tests/Favorite Things 2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E423F6F517F235D30091DC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Favorite Things 2.0.app/Favorite Things 2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Favorite Things 2.0/Favorite Things 2.0-Prefix.pch";
+				INFOPLIST_FILE = "Favorite Things 2.0Tests/Favorite Things 2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E423F6B917F235D20091DC22 /* Build configuration list for PBXProject "Favorite Things 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E423F6EE17F235D30091DC22 /* Debug */,
+				E423F6EF17F235D30091DC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E423F6F017F235D30091DC22 /* Build configuration list for PBXNativeTarget "Favorite Things 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E423F6F117F235D30091DC22 /* Debug */,
+				E423F6F217F235D30091DC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E423F6F317F235D30091DC22 /* Build configuration list for PBXNativeTarget "Favorite Things 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E423F6F417F235D30091DC22 /* Debug */,
+				E423F6F517F235D30091DC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E423F6B617F235D20091DC22 /* Project object */;
+}
